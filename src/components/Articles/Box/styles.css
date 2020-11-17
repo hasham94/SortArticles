@@ -1,0 +1,35 @@
+.boxwrapper{
+    margin-bottom: 22px;
+}
+@media(min-width: 768px) {
+    .boxwrapper {
+        display: inline-block;
+        width: 33.3333%;
+    }
+}
+.boxwrapper .item {
+    padding: 15px;
+    position: relative;
+}
+.boxwrapper img {
+    width: 100%;
+}
+.boxwrapper span {
+    display: block;
+}
+.boxwrapper .title {
+    font-size: 15px;
+    margin-bottom: 13px;
+    font-weight: 700;
+}
+.boxwrapper .date {
+    color: #81848a;
+}
+.boxwrapper .upvotes {
+    position: absolute;
+    bottom: 99px;
+    background: #5d33d0;
+    color: white;
+    padding: 10px;
+    border-top-right-radius: 14px;
+}

@@ -1,0 +1,20 @@
+.headerwrapper {
+    background: #5D33D0;
+    padding: 13px;
+}
+.headerwrapper button {
+    border: 1px solid white;
+    background: white;
+    border-radius: 3px;
+    margin-right: 22px;
+    padding: 8px;
+    font-size: 16px;
+}
+.headerwrapper h1 {
+    display: inline-block;
+    margin: 0px;
+    margin-right: 40px;
+    color: white;
+    line-height: 0;
+    font-size: 22px;
+}
